@@ -2,25 +2,20 @@
 
 This [renogy_ble](https://github.com/realrube/renogy_ble/edit/main) project is a custom component for Home Assistant allowing sensors to be collected via Bluetooth BLE using the Renogy BT-2 interface connected to Renogy Rover (in my case RBC50D1S) and similar products.  It was developed and tested on a Raspberry Pi 4B 4GB running the Home Assistant OS (6.6.62-haos-raspi).
 
-"""
-
-This file is part of renogy_ble.
-
-renogy_ble is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-renogy_ble is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with renogy_ble. If not, see <https://www.gnu.org/licenses/>.
-
-"""
-
+    This file is part of renogy_ble.
+  
+    renogy_ble is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    renogy_ble is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with renogy_ble. If not, see <https://www.gnu.org/licenses/>.
 
 ## Borrowed code
 

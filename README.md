@@ -39,7 +39,9 @@ This project borrowed some code from the "https://github.com/cyrils/renogy-bt" p
 ## Instructions:
 
 Place all code into a new directory "renogy_ble" within Home Assistant's structure:  
+
     /root/homeassistant/custom_components/renogy_ble
+    
 It's recommended to install Advanced SSH & Web Terminal and File editor Add-Ons in order to manipulate the code.
 
 Edit \_\_init__.py to suit your Renogy/Rover charger (search for MODIFY - Bluetooth MAC address and ID are required, you can find this by using the command "bluetoothctl devices").  This was quick and dirty method to avoid the configuration file from the original renogy-by project and minimize code for a quick proof of concept.  Maybe will clean up one day and use HA's built-in configuration mechanisms.

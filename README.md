@@ -19,7 +19,7 @@ This [renogy_ble](https://github.com/realrube/renogy_ble/edit/main) project is a
 
 ## Borrowed code
 
-This project borrowed some code from the "https://github.com/cyrils/renogy-bt" project by a different author.  Only certain functionality is borrowed, namely the RoverClient and its dependencies which were then modified to work with Home Assistant.  It's not the most elegant, but works and is a good starting point.
+This project borrowed some code from the [cyrils/renogy-bt](https://github.com/cyrils/renogy-bt) project by a different author.  Only certain functionality is borrowed, namely the RoverClient and its dependencies which were then modified to work with Home Assistant.  It's not the most elegant, but works and is a good starting point.
 
     BaseClient.py  (modified)
     BLEManager.py  (modified)

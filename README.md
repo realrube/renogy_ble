@@ -1,6 +1,6 @@
 # renogy_ble
 
-This renogy_ble project is a custom component for Home Assistant allowing sensors to be collected via Bluetooth BLE using the Renogy BT-2 interface connected to Renogy Rover (in my case RBC50D1S) and similar products.  It was developed and tested on a Raspberry Pi 4B 4GB running the Home Assistant OS (6.6.62-haos-raspi).
+This [renogy_ble](https://github.com/realrube/renogy_ble/edit/main) project is a custom component for Home Assistant allowing sensors to be collected via Bluetooth BLE using the Renogy BT-2 interface connected to Renogy Rover (in my case RBC50D1S) and similar products.  It was developed and tested on a Raspberry Pi 4B 4GB running the Home Assistant OS (6.6.62-haos-raspi).
 
 """
 

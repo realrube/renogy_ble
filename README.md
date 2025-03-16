@@ -22,21 +22,22 @@ along with renogy_ble. If not, see <https://www.gnu.org/licenses/>.
 
 """
 
-This project borrowed some code from the "https://github.com/cyrils/renogy-bt" project by a different author.  Only certain functionality is borrowed, namely the RoverClient and its dependencies which were then modified to work with Home Assistant.  It's not the most elegant, but works and is a good starting point.
 
-Borrowed code:
+## Borrowed code
+
+This project borrowed some code from the "https://github.com/cyrils/renogy-bt" project by a different author.  Only certain functionality is borrowed, namely the RoverClient and its dependencies which were then modified to work with Home Assistant.  It's not the most elegant, but works and is a good starting point.
 
     BaseClient.py  (modified)
     BLEManager.py  (modified)
     RoverClient.py (modified)
     Utils.py       (original)
 
-New code in this project:
+## New code in this project
 
     __init__.py
     sensor.py
 
-Instructions:
+## Instructions:
 
 Place all code into a new directory "renogy_ble" within Home Assistant's structure:  
 /root/homeassistant/custom_components/renogy_ble
@@ -76,4 +77,4 @@ You can now add the sensors to your dashboard.
 
 Remove the extra logging from configuration.yaml if everything is working fine.
 
-Enjoy!
+## Enjoy!

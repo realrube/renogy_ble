@@ -62,10 +62,10 @@ Restart Home Assistant and take a look at Settings->System->Logs->...->Show Raw 
 
 You should see various info pass by after the BLE device is detected and a connection is made:
 
-025-03-16 12:31:10.657 INFO (MainThread) [root] on_read_operation_complete
-2025-03-16 12:31:10.657 INFO (MainThread) [custom_components.renogy_ble] BT-TH-4817EE26 => {'function': 'READ', 'model': 'RBC50D1S-G4', 'device_id': 96, 'battery_percentage': 100, 'battery_voltage': 14.4, 'battery_current': 0.0, 'battery_temperature': 13, 'controller_temperature': 15, 'load_status': 'off', 'load_voltage': 0.0, 'load_current': 0.0, 'load_power': 0, 'pv_voltage': 0.0, 'pv_current': 0.0, 'pv_power': 0, 'max_charging_power_today': 682, 'max_discharging_power_today': 682, 'charging_amp_hours_today': 6, 'discharging_amp_hours_today': 0, 'power_generation_today': 82, 'power_consumption_today': 0, 'power_generation_total': 95, 'charging_status': 'deactivated', 'battery_type': None, '__device': 'BT-TH-4817EE26', '__client': 'RoverClient'}
-2025-03-16 12:31:10.657 INFO (MainThread) [custom_components.renogy_ble] Updated sensor: BT-TH-4817EE26 Battery Percentage with state: 100
-etc...
+    025-03-16 12:31:10.657 INFO (MainThread) [root] on_read_operation_complete
+    2025-03-16 12:31:10.657 INFO (MainThread) [custom_components.renogy_ble] BT-TH-4817EE26 => {'function': 'READ', 'model': 'RBC50D1S-G4', 'device_id': 96, 'battery_percentage': 100, 'battery_voltage': 14.4, 'battery_current': 0.0, 'battery_temperature': 13, 'controller_temperature': 15, 'load_status': 'off', 'load_voltage': 0.0, 'load_current': 0.0, 'load_power': 0, 'pv_voltage': 0.0, 'pv_current': 0.0, 'pv_power': 0, 'max_charging_power_today': 682, 'max_discharging_power_today': 682, 'charging_amp_hours_today': 6, 'discharging_amp_hours_today': 0, 'power_generation_today': 82, 'power_consumption_today': 0, 'power_generation_total': 95, 'charging_status': 'deactivated', 'battery_type': None, '__device': 'BT-TH-4817EE26', '__client': 'RoverClient'}
+    2025-03-16 12:31:10.657 INFO (MainThread) [custom_components.renogy_ble] Updated sensor: BT-TH-4817EE26 Battery Percentage with state: 100
+    etc...
 
 I found that a device ID of 255 worked, but sometimes an ID of 97 worked also.  This is a modbus thing, 255 is a broadcast ID so likely will only work if you have one client on your bus.
 
